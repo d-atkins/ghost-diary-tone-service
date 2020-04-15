@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'sinatra', require: 'sinatra/base'
+gem 'sinatra'
 gem 'sinatra-contrib'
+gem 'faraday'
 
 group :development, :test do
   gem 'rspec'
@@ -9,5 +10,4 @@ group :development, :test do
   gem 'shotgun'
   gem 'capybara'
   gem 'launchy'
-  gem 'rack-test'
 end
