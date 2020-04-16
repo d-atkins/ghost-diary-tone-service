@@ -10,4 +10,7 @@ group :development, :test do
   gem 'shotgun'
   gem 'capybara'
   gem 'launchy'
+  gem 'rack-test'
+  gem 'simplecov'
+  gem 'rspec-html-matchers'
 end
